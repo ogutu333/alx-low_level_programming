@@ -33,7 +33,11 @@ Otherwise - returns the sum of all the data (n).
 The parameter idx is the index of the list where the new node should be added - indices start at 0.
 If the function fails - returns NULL.
 Otherwise - returns the address of the new element.
+<<<<<<< HEAD
 Requires compilation with functions defined in 2-add_dnodeint.c and 3-add_dnodeint_end.
+=======
+Requires compilation with functions defined in 2-add_dnodeint.c and 3-add_dnodeint_end.c.
+>>>>>>> 5529bbd7bc1e705c8ef63b0f115604bc4d340a12
 
 
 8-delete_dnodeint.c: C function that deletes the node at index index of a doubly-linked dlistint_t list.
